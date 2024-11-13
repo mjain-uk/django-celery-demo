@@ -1,0 +1,100 @@
+# Python Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django Migrations
+*/migrations/*.py
+*/migrations/*.pyc
+
+# Environment Variables and Virtual Environments
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE Settings
+.vscode/
+.idea/
+
+# Database
+*.sqlite3
+*.db
+
+# Logs
+*.log
+logs/
+log/
+
+# Media
+media/
+
+# Static Files
+staticfiles/
+static/
+assets/
+*.sass-cache
+*.css.map
+*.js.map
+
+# Caches
+*.cache
+*.mo
+*.pot
+
+# Test Reports
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+nosetests.xml
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Coverage Reports
+htmlcov/
+.coverage
+.tox/
+.cache/
+coverage/
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints
+
+# Celery beat schedule
+celerybeat-schedule
+
+# Pipfile and pip-tools
+Pipfile
+Pipfile.lock
+__pypackages__/
+*.egg-info/
+.tox/
+dist/
+build/
+
+# Docker
+docker-compose*.yml
+.dockerignore
+Dockerfile
+
+# Local environment configs
+*.local
+*.prod
+*.dev
+
+# PyCharm-specific
+.idea/
+
+# Heroku specific files
+Procfile
