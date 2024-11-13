@@ -33,6 +33,8 @@
         "editor.defaultFormatter": "ms-python.python"
       },
       "python.pythonPath": "${workspaceFolder}/backend/venv/bin/python",
+      "python.formatting.provider": "black",
+
       "python.analysis.extraPaths": ["${workspaceFolder}/backend"],
       "python.linting.enabled": true,
       "python.linting.pylintEnabled": true,
